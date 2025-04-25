@@ -1,0 +1,27 @@
+
+A = 1235
+B = 3567
+C = 1238
+
+def big_A():
+    return max([int(i) for i in str(A)])
+
+def big_B():
+    return max([int(i) for i in str(B)])
+
+def big_C():
+    return max([int(i) for i in str(C)])
+
+def small_A():
+    return min([int(i) for i in str(A)])
+
+def small_B():
+    return min([int(i) for i in str(B)])
+
+def small_C():
+    return min([int(i) for i in str(C)])
+
+Q = big_A() + big_B() + big_C()
+T = small_A() + small_B() + small_C()
+
+print(Q + T)
