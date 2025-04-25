@@ -1,0 +1,9 @@
+char=97
+rows=int(input("enter no.of rows:"))
+cols=int(input("enter no.of colounms:"))
+for i in range(rows):
+    x=""
+    for j in range(cols):
+        x+=(chr(char))
+        char+=1
+    print(" ".join(x))
