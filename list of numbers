@@ -1,0 +1,11 @@
+task=list(map(int(input().strip().split())))
+time=int(input())
+l=[]
+for i in range(len(task)):
+    x=int(task[i])-time
+    l.append(X)
+for i n range(len(task)):
+    if int(l[i])>time:
+        x=int(task[i])-int(l[i])
+        c
+print(l)
